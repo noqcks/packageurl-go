@@ -45,7 +45,9 @@ var (
 // These are the known purl types as defined in the spec. Some of these require
 // special treatment during parsing.
 // https://github.com/package-url/purl-spec#known-purl-types
-var (
+var (	
+	// TypeAlpine is a pkg:apk purl.
+	TypeAlpine = "apk"
 	// TypeBitbucket is a pkg:bitbucket purl.
 	TypeBitbucket = "bitbucket"
 	// TypeCocoapods is a pkg:cocoapods purl.
